@@ -6,5 +6,9 @@ Performance enhancement of embedded processors and ubiquitous cellular connectiv
 
 # Usage
   ./VariableCFL adjList.txt numColorsReq.txt [numTotalColors]
-adjList.txt: adjacent list of the graph, the i<sup>th</sup> line is the adjacent list of the i<sup>th</sup> vertex.
-numColorsReq.txt: the i<sup>th</sup> line is the number of colors(or channels) needed by the i<sup>th</sup> vertex.
+  
+  adjList.txt: "(E,V)" adjacent list of the graph, the i<sup>th</sup> line is the adjacent list of the i<sup>th</sup> vertex.
+  
+  numColorsReq.txt: "D", the i<sup>th</sup> line the number of colors needed by the i<sup>th</sup> vertex.
+  
+  numTotalColors: optional parameter "N<sub>c</sub>" number of total available colors(or channels). If not specified, the program will try each number from sum(D) down to max(D)
