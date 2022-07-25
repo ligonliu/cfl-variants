@@ -11,9 +11,13 @@ Performance enhancement of embedded processors and ubiquitous cellular connectiv
 # Usage
 
 ## multicfl
-  To generate new random interference graphs: /home/ligonliu/cfl-variants/cmake-build-debug/multicfl NUM_NODES MAX_INTERFERE_RADIUS MAX_FRAGMENT MAX_CHANNELS [RANDOM_SEED]
+  To generate new random interference graphs: 
   
-  To use existing random interference graphs: /home/ligonliu/cfl-variants/cmake-build-debug/multicfl MAX_FRAGMENT MAX_CHANNELS
+  multicfl NUM_NODES MAX_INTERFERE_RADIUS MAX_FRAGMENT MAX_CHANNELS [RANDOM_SEED]
+  
+  To use existing random interference graphs: 
+  
+  multicfl MAX_FRAGMENT MAX_CHANNELS
 
 ## variablecfl
   ./variablecfl adjList.txt numChansReq.txt [numTotalChan=?] [randomSeed=?]
