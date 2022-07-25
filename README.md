@@ -13,14 +13,14 @@ Performance enhancement of embedded processors and ubiquitous cellular connectiv
 ## multicfl
   To generate new random interference graphs: 
   
-  multicfl NUM_NODES MAX_INTERFERE_RADIUS MAX_FRAGMENT MAX_CHANNELS [RANDOM_SEED]
+      multicfl NUM_NODES MAX_INTERFERE_RADIUS MAX_FRAGMENT MAX_CHANNELS [RANDOM_SEED]
   
   To use existing random interference graphs: 
   
-  multicfl MAX_FRAGMENT MAX_CHANNELS
+      multicfl MAX_FRAGMENT MAX_CHANNELS
 
 ## variablecfl
-  ./variablecfl adjList.txt numChansReq.txt [numTotalChan=?] [randomSeed=?]
+      variablecfl adjList.txt numChansReq.txt [numTotalChan=?] [randomSeed=?]
   
   adjList.txt: "(E,V)" adjacent list of the graph, the i<sup>th</sup> line is the adjacent list of the i<sup>th</sup> vertex.
   
